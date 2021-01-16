@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'primeng-ngx-doc-viewer';
+  pdfOption: string = "https://www2.cs.arizona.edu/~mercer/Presentations/18-BinaryTrees.pdf";
+
+  displayMaximizable: boolean;
+
+  showMaximizableDialog() {
+    this.displayMaximizable = true;
+  }
+
 }
